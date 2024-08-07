@@ -1,9 +1,8 @@
-﻿using LeetCodeProblems;
+﻿using System.Globalization;
+using LeetCodeProblems;
 
-var encoded = EncodeDecode.Encode(["!code","6572!!!!","!word","!words"]);
+var res = ProductArrayExceptSelf.Solution([1, 2, 3, 4]);
 
-var decoded = EncodeDecode.Decode(encoded);
-
-foreach(var str in decoded){
-    Console.WriteLine(str);
+foreach(var num in res){
+    Console.WriteLine(num);
 }
